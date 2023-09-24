@@ -1,4 +1,11 @@
 /* Globals */
+.navbar {
+  height: 100px; /* Ajusta la altura según tu diseño */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background: #fff;
