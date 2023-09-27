@@ -21,3 +21,13 @@ function drawChart() {
 
   chart.draw(data, options);
 }
+
+function change(){
+  var select = document.getElementById('language');
+  var value = select.options[select.selectedIndex].value;
+  if(value === "es-ES"){
+    location.replace("indexES.html");
+  }else if (value === "en-US") {
+    location.replace("index.html");
+  }
+}
